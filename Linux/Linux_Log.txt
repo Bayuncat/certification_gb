@@ -1,0 +1,14 @@
+cat > Pets.txt
+cat > PackAnimals.txt
+cat Pets.txt PackAnimals.txt > HumanFriends.txt
+ls
+mkdir creaturs
+mv HumanFriends.txt ~/creatures
+cd ~/creatures
+ls
+sudo wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.10-1_all.deb
+sudo apt-get install mysql-server
+sudo dpkg --install google-chrome-stable_current_amd64.deb
+sudo dpkg --remove google-chrome-stable
+
+
